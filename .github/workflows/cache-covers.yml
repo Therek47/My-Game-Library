@@ -1,0 +1,72 @@
+name: Cache game covers locally
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data.js'
+
+permissions:
+  contents: write
+
+jobs:
+  cache-covers:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download covers and rewrite data
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re, os, urllib.request, urllib.parse, hashlib, mimetypes
+          from pathlib import Path
+
+          p=Path('data.js')
+          text=p.read_text(encoding='utf-8')
+          out=Path('assets/covers'); out.mkdir(parents=True, exist_ok=True)
+          urls=list(dict.fromkeys(re.findall(r"cover:'(https?://[^']+)'", text)))
+          headers={'User-Agent':'Mozilla/5.0 (compatible; MyGameLibraryCoverCache/1.0)'}
+          ok=0; failed=[]
+          for url in urls:
+              parsed=urllib.parse.urlparse(url)
+              base=os.path.basename(parsed.path).lower()
+              ext=os.path.splitext(base)[1]
+              if ext not in ('.jpg','.jpeg','.png','.webp'):
+                  ext='.jpg'
+              filename=hashlib.sha1(url.encode()).hexdigest()[:16]+ext
+              dest=out/filename
+              try:
+                  req=urllib.request.Request(url,headers=headers)
+                  with urllib.request.urlopen(req,timeout=30) as r:
+                      data=r.read()
+                      ctype=(r.headers.get('Content-Type') or '').lower()
+                  if len(data)<1000 or ('image/' not in ctype and ext=='.jpg' and data[:3] not in (b'\xff\xd8\xff',)):
+                      raise ValueError('response does not look like an image')
+                  dest.write_bytes(data)
+                  text=text.replace("cover:'"+url+"'", "cover:'assets/covers/"+filename+"'")
+                  ok+=1
+              except Exception as e:
+                  failed.append((url,str(e)))
+          p.write_text(text,encoding='utf-8')
+          print(f'Cached {ok}/{len(urls)} covers')
+          if failed:
+              print('Failed URLs (left external so the site keeps working):')
+              for u,e in failed: print('-',u,e)
+          PY
+
+      - name: Commit cached covers
+        shell: bash
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain assets/covers)" ]; then
+            echo "Nothing to cache."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js assets/covers
+          git commit -m "Cache game covers locally"
+          git push
