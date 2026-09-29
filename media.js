@@ -157,5 +157,12 @@ const gameMedia = {
     "artworkPosition": "center 35%",
     "cover": "assets/covers/5297556-chaos-legion-playstation-2-front-cover.jpeg",
     "coverPlatform": "PS2"
+  },
+  "CY Girls": {
+    "poster": "assets/covers/7544921-cy-girls-playstation-2-manual.jpeg",
+    "artwork": "assets/covers/7544921-cy-girls-playstation-2-manual.jpeg",
+    "posterPosition": "50% center",
+    "cover": "assets/covers/4225530-cy-girls-playstation-2-front-cover.jpeg",
+    "coverPlatform": "PS2"
   }
 };
