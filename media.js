@@ -1,6 +1,6 @@
 // Display artwork is separate from the platform edition cover.
 const gameMedia = {
-  "X-Men Origins: Wolverine": {"poster":"assets/art/wolverine-hero.jpg","artwork":"assets/art/wolverine-hero.jpg","posterPosition":"35% center","coverPlatform":"PS3"},
+  "X-Men Origins: Wolverine": {"poster":"assets/art/wolverine-hero.jpg","artwork":"assets/art/wolverine-hero.jpg","posterPosition":"35% center","coverPlatform":"PS3","trailer":"https://youtu.be/EzG6h_YKHbU?is=jAX-MrKmwOMjh1sc"},
   "Resident Evil HD Remaster": {"poster":"assets/art/resident-evil-hd-poster.jpg","artwork":"assets/art/resident-evil-hd-hero.jpg","posterPosition":"50% center","coverPlatform":"PC","logo":"assets/art/resident-evil-hd-logo.png"},
   "Resident Evil Village": {"poster":"assets/art/resident-evil-village-poster.jpg","artwork":"assets/art/resident-evil-village-hero.jpg","posterPosition":"50% center","coverPlatform":"PS5"},
   "Remember Me": {"poster":"assets/art/remember-me-poster.jpg","artwork":"assets/art/remember-me-hero.jpg","posterPosition":"50% center","coverPlatform":"PC"},
