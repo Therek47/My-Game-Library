@@ -149,5 +149,13 @@ const gameMedia = {
     "artwork": "assets/art/daxter-hero.jpeg",
     "posterPosition": "80% center",
     "coverPlatform": "PSP"
+  },
+  "Chaos Legion": {
+    "poster": "assets/covers/chalp20f.jpeg",
+    "artwork": "assets/covers/IMG_2409.jpeg",
+    "posterPosition": "50% center",
+    "artworkPosition": "center 35%",
+    "cover": "assets/covers/5297556-chaos-legion-playstation-2-front-cover.jpeg",
+    "coverPlatform": "PS2"
   }
 };
