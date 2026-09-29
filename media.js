@@ -151,8 +151,8 @@ const gameMedia = {
     "coverPlatform": "PSP"
   },
   "Chaos Legion": {
-    "poster": "assets/covers/chalp20f.jpeg",
-    "artwork": "assets/covers/IMG_2409.jpeg",
+    "poster": "assets/covers/IMG_2409.jpeg",
+    "artwork": "assets/covers/chalp20f.jpeg",
     "posterPosition": "50% center",
     "artworkPosition": "center 35%",
     "cover": "assets/covers/5297556-chaos-legion-playstation-2-front-cover.jpeg",
