@@ -151,7 +151,7 @@ const gameMedia = {
     "coverPlatform": "PSP"
   },
   "Chaos Legion": {
-    "poster": "assets/covers/IMG_2409.jpeg",
+    "poster": "IMG_2408.jpeg",
     "artwork": "assets/covers/chalp20f.jpeg",
     "posterPosition": "50% center",
     "artworkPosition": "center 35%",
