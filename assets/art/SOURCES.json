@@ -1,0 +1,240 @@
+{
+  "note": "Original game promotional artwork and edition cover sources. All rights belong to the respective game publishers and artists. Mirrors are listed where original publisher hosting is unavailable.",
+  "images": [
+    {
+      "name": "resident-evil-hd",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/304240/library_600x900.jpg",
+      "path": "assets/art/resident-evil-hd-poster.jpg",
+      "bytes": 48482
+    },
+    {
+      "name": "resident-evil-hd",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/304240/library_hero.jpg",
+      "path": "assets/art/resident-evil-hd-hero.jpg",
+      "bytes": 385743
+    },
+    {
+      "name": "resident-evil-0",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/339340/library_600x900.jpg",
+      "path": "assets/art/resident-evil-0-poster.jpg",
+      "bytes": 55680
+    },
+    {
+      "name": "resident-evil-0",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/339340/library_hero.jpg",
+      "path": "assets/art/resident-evil-0-hero.jpg",
+      "bytes": 347055
+    },
+    {
+      "name": "resident-evil-2",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/library_600x900.jpg",
+      "path": "assets/art/resident-evil-2-poster.jpg",
+      "bytes": 57691
+    },
+    {
+      "name": "resident-evil-2",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/library_hero.jpg",
+      "path": "assets/art/resident-evil-2-hero.jpg",
+      "bytes": 292738
+    },
+    {
+      "name": "resident-evil-3",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/library_600x900.jpg",
+      "path": "assets/art/resident-evil-3-poster.jpg",
+      "bytes": 48195
+    },
+    {
+      "name": "resident-evil-3",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/library_hero.jpg",
+      "path": "assets/art/resident-evil-3-hero.jpg",
+      "bytes": 197710
+    },
+    {
+      "name": "resident-evil-4",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
+      "path": "assets/art/resident-evil-4-poster.jpg",
+      "bytes": 34266
+    },
+    {
+      "name": "resident-evil-4",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_hero.jpg",
+      "path": "assets/art/resident-evil-4-hero.jpg",
+      "bytes": 250815
+    },
+    {
+      "name": "resident-evil-5",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/21690/library_600x900.jpg",
+      "path": "assets/art/resident-evil-5-poster.jpg",
+      "bytes": 41485
+    },
+    {
+      "name": "resident-evil-5",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/21690/library_hero.jpg",
+      "path": "assets/art/resident-evil-5-hero.jpg",
+      "bytes": 365194
+    },
+    {
+      "name": "resident-evil-6",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/library_600x900.jpg",
+      "path": "assets/art/resident-evil-6-poster.jpg",
+      "bytes": 36232
+    },
+    {
+      "name": "resident-evil-6",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/library_hero.jpg",
+      "path": "assets/art/resident-evil-6-hero.jpg",
+      "bytes": 271020
+    },
+    {
+      "name": "resident-evil-7",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/library_600x900.jpg",
+      "path": "assets/art/resident-evil-7-poster.jpg",
+      "bytes": 63557
+    },
+    {
+      "name": "resident-evil-7",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/library_hero.jpg",
+      "path": "assets/art/resident-evil-7-hero.jpg",
+      "bytes": 437837
+    },
+    {
+      "name": "resident-evil-village",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/library_600x900.jpg",
+      "path": "assets/art/resident-evil-village-poster.jpg",
+      "bytes": 46770
+    },
+    {
+      "name": "resident-evil-village",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/library_hero.jpg",
+      "path": "assets/art/resident-evil-village-hero.jpg",
+      "bytes": 312220
+    },
+    {
+      "name": "revelations",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/222480/library_600x900.jpg",
+      "path": "assets/art/revelations-poster.jpg",
+      "bytes": 59489
+    },
+    {
+      "name": "revelations",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/222480/library_hero.jpg",
+      "path": "assets/art/revelations-hero.jpg",
+      "bytes": 411291
+    },
+    {
+      "name": "revelations-2",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/287290/library_600x900.jpg",
+      "path": "assets/art/revelations-2-poster.jpg",
+      "bytes": 77924
+    },
+    {
+      "name": "revelations-2",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/287290/library_hero.jpg",
+      "path": "assets/art/revelations-2-hero.jpg",
+      "bytes": 428039
+    },
+    {
+      "name": "remember-me",
+      "kind": "poster",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/228300/library_600x900.jpg",
+      "path": "assets/art/remember-me-poster.jpg",
+      "bytes": 58158
+    },
+    {
+      "name": "remember-me",
+      "kind": "hero",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/228300/library_hero.jpg",
+      "path": "assets/art/remember-me-hero.jpg",
+      "bytes": 376383
+    },
+    {
+      "name": "resident-evil-hd",
+      "kind": "logo",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/304240/logo.png",
+      "path": "assets/art/resident-evil-hd-logo.png",
+      "bytes": 80135
+    },
+    {
+      "path": "assets/art/daxter-hero.jpeg",
+      "url": "https://hackernoon.imgix.net/images/eQHzh6rz7ETBHLjs0KzCl1Dooqp2-ew1v3565.jpeg"
+    },
+    {
+      "path": "assets/art/jak-x-poster.jpg",
+      "url": "https://image.api.playstation.com/cdn/EP9000/CUSA07992_00/6FKeiAJpASYveqWSMhxQ6qERwjbIq7fR.jpg"
+    },
+    {
+      "path": "assets/art/outbreak-hero.jpg",
+      "url": "https://pbs.twimg.com/media/FMUYQAkWYAMQvkK.jpg"
+    },
+    {
+      "path": "assets/art/outbreak-2-official.jpg",
+      "url": "https://cdn.mobygames.com/promos/1086696-resident-evil-outbreak-file-2-wallpaper.jpg"
+    },
+    {
+      "path": "assets/art/wolverine-hero.jpg",
+      "url": "https://cdn.wallpapersafari.com/51/55/FMsbSH.jpg"
+    },
+    {
+      "path": "assets/art/darkside-hero.jpg",
+      "url": "https://vistapointe.net/images/resident-evil-the-darkside-chronicles-10.jpg"
+    },
+    {
+      "path": "assets/art/veronica-poster.jpg",
+      "url": "https://media.vandal.net/m/48247/resident-evil-code-veronica-x-2017510111927_5.jpg"
+    },
+    {
+      "path": "assets/art/veronica-hero.jpg",
+      "url": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2025/02/codeveronica.jpg?fit=900%2C580&ssl=1"
+    },
+    {
+      "path": "assets/art/umbrella-hero.jpg",
+      "url": "https://cucdn.creativeuncut.com/gallery-07/art/reuc-main-art.jpg"
+    },
+    {
+      "path": "assets/art/infamous-hero.jpg",
+      "url": "https://cucdn.creativeuncut.com/gallery-11/art/inf-cole-cityscape.jpg"
+    },
+    {
+      "path": "assets/art/infamous-poster.jpg",
+      "url": "https://cucdn.creativeuncut.com/gallery-11/art/inf-poster-main.jpg"
+    },
+    {
+      "path": "assets/art/deadpool-hero.jpg",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/224060/capsule_616x353.jpg"
+    },
+    {
+      "path": "assets/art/transformers-hero.jpg",
+      "url": "https://static.actugaming.net/media/2015/10/transformers-devastation.jpg"
+    },
+    {
+      "path": "assets/art/ninja-blade-hero.jpg",
+      "url": "https://wallpapertag.com/wallpaper/middle/a/f/3/677055-best-ninja-blade-pc-game-wallpaper-in-hd-1920x1080-high-resolution.jpg"
+    },
+    {
+      "path": "assets/art/../covers/veronica-ps3.webp",
+      "url": "https://i.3djuegos.com/juegos/7839/resident_evil_code_veronica_x_hd/fotos/ficha/resident_evil_code_veronica_x_hd-1800338.webp"
+    }
+  ]
+}
