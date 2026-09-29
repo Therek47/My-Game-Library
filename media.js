@@ -3,7 +3,7 @@ const gameMedia = {
   "X-Men Origins: Wolverine": {
     "poster": "assets/art/wolverine-hero.jpg",
     "artwork": "assets/art/wolverine-hero.jpg",
-    "posterPosition": "65% center",
+    "posterPosition": "35% center",
     "coverPlatform": "PS3"
   },
   "Resident Evil HD Remaster": {
@@ -45,6 +45,7 @@ const gameMedia = {
   },
   "Resident Evil Code: Veronica": {
     "poster": "assets/art/veronica-poster.jpg",
+    "posterFit": "contain",
     "artwork": "assets/art/veronica-hero.jpg",
     "posterPosition": "50% center",
     "coverPlatform": "PS3 · HD"
