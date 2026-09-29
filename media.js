@@ -160,8 +160,9 @@ const gameMedia = {
   },
   "CY Girls": {
     "poster": "assets/covers/7544921-cy-girls-playstation-2-manual.jpeg",
-    "artwork": "assets/covers/7544921-cy-girls-playstation-2-manual.jpeg",
+    "artwork": "assets/covers/e32cf158-e366-4198-815a-8172fa8e8f16.jpeg",
     "posterPosition": "50% center",
+    "artworkPosition": "center",
     "cover": "assets/covers/4225530-cy-girls-playstation-2-front-cover.jpeg",
     "coverPlatform": "PS2"
   }
