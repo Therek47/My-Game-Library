@@ -16,10 +16,10 @@ render();
 /* MGL Pulse V5 cinematic boot. */
 (()=>{
   const css=document.createElement('link');
-  css.rel='stylesheet'; css.href='splash.css?v=2'; document.head.appendChild(css);
+  css.rel='stylesheet'; css.href='splash.css?v=3'; document.head.appendChild(css);
   const splash=document.createElement('div');
   splash.id='mglSplash'; splash.setAttribute('aria-hidden','true');
-  splash.innerHTML='<div class="sFog"></div><div class="sPulse"></div><div class="sCore"></div><div class="sRing"></div><div class="sRing r2"></div><div class="sSpark s1"></div><div class="sSpark s2"></div><div class="sSpark s3"></div><div class="sSpark s4"></div><div class="sLogo"><img src="assets/logos/5EE16B0A-043F-42D6-A585-DA5C75296A01.png?v=1" alt="MGL — My Game Library"></div><div class="sLine"></div>';
+  splash.innerHTML='<div class="sFog"></div><div class="sPulse"></div><div class="sCore"></div><div class="sRing"></div><div class="sRing r2"></div><div class="sSpark s1"></div><div class="sSpark s2"></div><div class="sSpark s3"></div><div class="sSpark s4"></div><div class="sLogo"><img src="assets/logos/mgl-splash-transparent.png?v=1" alt="MGL — My Game Library"></div><div class="sLine"></div>';
   document.body.prepend(splash);
   setTimeout(()=>splash.remove(),3300);
 })();
