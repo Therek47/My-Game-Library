@@ -1,0 +1,18 @@
+{
+  "name": "MGL — My Game Library",
+  "short_name": "MGL",
+  "description": "Ma bibliothèque personnelle de jeux vidéo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050608",
+  "theme_color": "#050608",
+  "icons": [
+    {
+      "src": "assets/logos/5EE16B0A-043F-42D6-A585-DA5C75296A01.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
