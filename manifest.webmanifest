@@ -9,9 +9,9 @@
   "theme_color": "#050608",
   "icons": [
     {
-      "src": "assets/logos/5EE16B0A-043F-42D6-A585-DA5C75296A01.png",
-      "sizes": "any",
-      "type": "image/png",
+      "src": "assets/icons/mgl-app-icon.jpg?v=2",
+      "sizes": "180x180",
+      "type": "image/jpeg",
       "purpose": "any"
     }
   ]
