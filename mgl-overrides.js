@@ -37,6 +37,44 @@
       }
     }
 
+    let control=games.find(x=>x.title==='Control Ultimate Edition');
+    if(!control){
+      control={
+        title:'Control Ultimate Edition',
+        platform:'PC • Steam',
+        status:'En cours',
+        compat:'Fonctionnel',
+        year:'2020',
+        genre:'Action-aventure / TPS / Surnaturel',
+        developer:'Remedy Entertainment',
+        saga:'Control',
+        note:'Partie en cours sur ROG Xbox Ally X',
+        hours:'',
+        rating:'',
+        favorite:false
+      };
+      games.push(control);
+    }
+    Object.assign(control,{
+      folder:'rog-pc',
+      bestDevice:'ROG Xbox Ally X',
+      bestMethod:'PC natif • Steam',
+      sourcePlatform:'PC',
+      coverPlatform:'PC • Steam',
+      poster:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/870780/library_600x900.jpg',
+      artwork:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/870780/library_hero.jpg',
+      posterPosition:'50% center',
+      artworkPosition:'center',
+      cover:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/870780/library_600x900.jpg'
+    });
+
+    const controlMarker='mgl_control_current_20261005';
+    if(!localStorage.getItem(controlMarker)){
+      control.status='En cours';
+      localStorage.setItem('mgl_current_game','Control Ultimate Edition');
+      localStorage.setItem(controlMarker,'1');
+    }
+
     // Persist the current library state, including the user's existing edits.
     localStorage.setItem('mgl_live',JSON.stringify(games));
     render();
