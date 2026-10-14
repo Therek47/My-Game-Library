@@ -75,6 +75,48 @@
       localStorage.setItem(controlMarker,'1');
     }
 
+    // Dragon's Dogma 2 — PS5 Pro (sans spoilers).
+    let dd2=games.find(x=>x.title==="Dragon's Dogma 2"||x.title==="Dragon’s Dogma 2");
+    if(!dd2){
+      dd2={
+        title:"Dragon's Dogma 2",
+        status:'En cours',
+        note:'',
+        hours:'',
+        rating:'',
+        favorite:false
+      };
+      games.push(dd2);
+    }
+    Object.assign(dd2,{
+      platform:'PS5',
+      compat:'Fonctionnel',
+      year:'2024',
+      genre:'Action-RPG / Fantasy / Monde ouvert',
+      developer:'Capcom',
+      saga:"Dragon's Dogma",
+      folder:'ps5',
+      bestDevice:'PS5 Pro',
+      bestMethod:'Version PS5 • Optimisée PS5 Pro',
+      sourcePlatform:'PS5',
+      coverPlatform:'PS5',
+      poster:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2054970/library_600x900_2x.jpg',
+      artwork:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2054970/library_hero.jpg',
+      posterPosition:'50% center',
+      artworkPosition:'center',
+      cover:'https://image.intertoys.nl/wcsstore/IntertoysCAS/images/catalog/full/1999748-81614392.jpg'
+    });
+    const dd2Marker='mgl_dd2_ps5_current_20261014';
+    if(!localStorage.getItem(dd2Marker)){
+      dd2.status='En cours';
+      dd2.progress=3;
+      dd2.progressLabel='En route vers la capitale';
+      dd2.progressNote='Tout début de l’aventure : voyage vers la capitale avec les gardes. Les 3 % sont une estimation indicative, pas une progression officielle.';
+      dd2.note='En route vers la capitale avec les gardes — début de l’aventure (sans spoilers).';
+      localStorage.setItem('mgl_current_game',dd2.title);
+      localStorage.setItem(dd2Marker,'1');
+    }
+
     // Persist the current library state, including the user's existing edits.
     localStorage.setItem('mgl_live',JSON.stringify(games));
     render();
