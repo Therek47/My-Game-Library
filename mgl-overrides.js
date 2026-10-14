@@ -117,6 +117,39 @@
       localStorage.setItem(dd2Marker,'1');
     }
 
+    // Cyberpunk 2077 — simple envie potentielle, pas un jeu à commencer maintenant.
+    let cyberpunk=games.find(g=>g.title==='Cyberpunk 2077');
+    if(!cyberpunk){
+      cyberpunk={
+        title:'Cyberpunk 2077',
+        platform:'PC • Steam',
+        status:'Optionnel',
+        compat:'Jouable avec réglages adaptés',
+        year:'2020',
+        genre:'Action-RPG / Monde ouvert / FPS',
+        developer:'CD Projekt RED',
+        saga:'Cyberpunk',
+        note:'Pour plus tard uniquement, sans obligation. Curiosité pour le clavier-souris sur ROG Xbox Ally X Z2 Extreme (Logitech G515 + G502 X). Si envie de tester : 1080p, détails bas à moyens, FSR Qualité/Équilibré, ray tracing désactivé. Fluidité variable, souvent autour de 40 à 60 FPS selon les scènes et réglages. Priorité à la PS5 Pro si le rendu graphique compte davantage. Ne pas installer pour le moment.',
+        hours:'',
+        rating:'',
+        favorite:false
+      };
+      games.push(cyberpunk);
+    }
+    // Conserver le statut et les notes personnalisés s'ils ont déjà été modifiés.
+    Object.assign(cyberpunk,{
+      folder:'rog-pc',
+      bestDevice:'ROG Xbox Ally X',
+      bestMethod:'PC natif • clavier-souris',
+      sourcePlatform:'PC',
+      coverPlatform:'PC • Steam',
+      poster:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg',
+      artwork:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_hero.jpg',
+      posterPosition:'50% center',
+      artworkPosition:'center',
+      cover:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg'
+    });
+
     // Persist the current library state, including the user's existing edits.
     localStorage.setItem('mgl_live',JSON.stringify(games));
     render();
