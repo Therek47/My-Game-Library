@@ -1,0 +1,36 @@
+/* MGL — dossiers de franchises, cohérents avec l'interface charbon / rouge. */
+.sagaSection{margin:8px 0 25px;scroll-margin-top:115px}
+.sagaGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px}
+.sagaFolder{position:relative;isolation:isolate;display:flex;align-items:flex-end;text-align:left;min-height:195px;padding:16px;overflow:hidden;cursor:pointer;color:#fff;border:1px solid #29323b;border-radius:11px;background:radial-gradient(circle at 85% 15%,#68202c36,transparent 55%),linear-gradient(145deg,#171b23,#07090d 72%);transition:border-color .2s,transform .2s,box-shadow .2s}
+.sagaFolder:hover,.sagaFolder.selected{border-color:#ff1738;box-shadow:0 9px 30px #0009,0 0 0 1px #ff17382e}
+.sagaFolder:hover{transform:translateY(-3px)}
+.sagaFolder:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#07090df2 0%,#07090db0 37%,#07090d1a 90%),linear-gradient(0deg,#07090df7,transparent 74%)}
+.sagaFolder.selected:before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:#ff1738;z-index:2}
+.sagaCoverStack{position:absolute;right:-5px;top:-17px;width:72%;height:110%;z-index:-2;pointer-events:none}
+.sagaCoverStack img{position:absolute;top:8%;height:88%;width:47%;object-fit:cover;border:1px solid #ffffff36;border-radius:5px;box-shadow:0 8px 20px #000a}
+.sagaCoverStack img:nth-child(1){right:4%;transform:rotate(10deg)}
+.sagaCoverStack img:nth-child(2){right:28%;top:4%;transform:rotate(-7deg)}
+.sagaCoverStack img:nth-child(3){right:50%;top:16%;transform:rotate(-16deg)}
+.sagaFolderInfo{position:relative;z-index:2;display:flex;flex-direction:column;gap:5px;max-width:94%;text-shadow:0 2px 8px #000}
+.sagaFolderInfo strong{font-size:clamp(17px,1.8vw,22px);line-height:1.1;font-weight:950;letter-spacing:-.4px}
+.sagaFolderInfo small{font-size:12px;color:#e0e3e8;font-weight:750}
+.sagaFolderInfo small span{color:#ff5269;padding-left:5px}
+.sagaViewMode,.sagaBack{color:#e8ebf0;background:#11161c;border:1px solid #343c47;border-radius:9px;padding:9px 12px;font-size:12px;font-weight:850;cursor:pointer}
+.sagaViewMode:hover,.sagaBack:hover{border-color:#ff1738;color:#fff}
+.sagaBreadcrumb{display:flex;align-items:center;gap:12px;margin:18px 0 0}
+.sagaBreadcrumb[hidden],.sagaSection[hidden]{display:none}
+.sagaBreadcrumb span{font-size:10px;font-weight:900;letter-spacing:1.1px;color:#ff4e65}
+.grid .card[hidden]{display:none}
+.controls{scroll-margin-top:115px}
+@media(max-width:720px){
+  .sagaGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .sagaFolder{min-height:155px;padding:11px;border-radius:9px}
+  .sagaFolderInfo strong{font-size:16px}
+  .sagaFolderInfo small{font-size:11px}
+  .sagaCoverStack{width:100%;right:-18%;opacity:.88}
+  .sagaCoverStack img{width:54%}
+  .sagaSection .sectionTitle{align-items:center;gap:10px}
+  .sagaViewMode{font-size:11px;padding:8px 9px}
+}
+@media(max-width:380px){.sagaFolderInfo strong{font-size:14px}.sagaFolder{min-height:142px}}
+@media(prefers-reduced-motion:reduce){.sagaFolder{transition:none}}
