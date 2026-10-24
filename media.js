@@ -1,6 +1,6 @@
 // Display artwork is separate from the platform edition cover.
 const gameMedia = {
-  "Obscure": {"poster":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/254460/portrait.png","artwork":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/254460/header.jpg","posterPosition":"50% center","artworkPosition":"center","coverPlatform":"PC"},
+  "Obscure": {"poster":"https://images.launchbox-app.com/8aae4b4b-4285-4a20-af23-e1544bc48695.jpg","artwork":"https://images.launchbox-app.com/917c2783-a1e3-4bc0-ad77-8ed3942619db.jpg","posterPosition":"50% center","artworkPosition":"center","coverPlatform":"PC"},
   "X-Men Origins: Wolverine": {"poster":"assets/art/wolverine-hero.jpg","artwork":"assets/art/wolverine-hero.jpg","posterPosition":"35% center","coverPlatform":"PS3","trailer":"https://youtu.be/EzG6h_YKHbU?is=jAX-MrKmwOMjh1sc"},
   "Resident Evil HD Remaster": {"poster":"assets/art/resident-evil-hd-poster.jpg","artwork":"assets/art/resident-evil-hd-hero.jpg","posterPosition":"50% center","coverPlatform":"PC","logo":"assets/art/resident-evil-hd-logo.png"},
   "Resident Evil Village": {"poster":"assets/art/resident-evil-village-poster.jpg","artwork":"assets/art/resident-evil-village-hero.jpg","posterPosition":"50% center","coverPlatform":"PS5"},
